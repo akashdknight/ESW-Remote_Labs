@@ -2,7 +2,6 @@ import React from 'react'
 
 const Colors = React.lazy(() => import('./views/theme/colors/Colors'))
 const Typography = React.lazy(() => import('./views/theme/typography/Typography'))
-const Number = React.lazy(() => import('./views/mainComponents/Review'))
 
 // Base
 const Accordion = React.lazy(() => import('./views/base/accordion/Accordion'))
